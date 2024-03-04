@@ -1,13 +1,15 @@
-<!doctype html>
-<html lang="en">
-    <head>
-        <title>Kodutöö nr 4</title>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"/>
-    </head>
-    <body>
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kodutöö nr4</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script data-name="TokenSigning" data-by="Web-eID extension"
+    src="chrome-extension://ncibgoaomkmdpilpocfeponihegamlic/token-signing-page-script.js"></script>
+</head>
+<body>
     <div class="conteiner">
         <nav class="navbar navbar-expand-sm bg-body">
           <div class="container">
@@ -55,7 +57,7 @@
         $protsent = rand(10, 100);
         echo '<div class="progress mb-3">';
         echo '<div class="progress-bar bg-' .$varv.'" role="progressbar" style="width:'.$protsent.'%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">' . $oskus . '</div>';
-            echo '</div>';
+        echo '</div>';
       }
       ?>
       </div>
